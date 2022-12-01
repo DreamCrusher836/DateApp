@@ -19,6 +19,7 @@ body {
     height: 350px;
     background-color: #403F4C;
     display: flex;
+    justify-content: space-around;
 }
 
 .introbox {
@@ -30,6 +31,7 @@ body {
 .icon {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .btn {
@@ -47,6 +49,8 @@ body {
     border-radius: 8px;
     margin-left: 300px;
     margin-top: 25px;
+    position: relative;
+    left: -120px;
 }
 
 .picture {
@@ -267,4 +271,8 @@ li a {
     font-size: 70px;
     color: #403F4C;
     padding-top: 69px;
+}
+
+.fa-solid fa-heart-circle-plus fa-5x {
+    padding-left: 50px;
 }
