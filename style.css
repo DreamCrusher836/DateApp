@@ -1,0 +1,270 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* this fixes for the lin in html in line 59 for the color in the gap when needing the margin top */
+
+body {
+    background: #F433AB;
+}
+
+
+/* this is the intro box */
+
+.Box1 {
+    width: 100%;
+    height: 350px;
+    background-color: #403F4C;
+    display: flex;
+}
+
+.introbox {
+    width: 50%;
+    height: 350px;
+    background-color: #403F4C;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    background-color: #403F4C;
+    border: none;
+    color: #F433AB;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid #F433AB;
+    border-radius: 8px;
+    margin-left: 300px;
+    margin-top: 25px;
+}
+
+.picture {
+    width: 50%;
+    height: 350px;
+    background-color: #403F4C;
+}
+
+
+/* ============this is the end of all css content in intro box=========== */
+
+
+/* ==============this is the navbar=============== */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #403F4C;
+}
+
+li a {
+    float: right;
+    font-size: 20px;
+    display: block;
+    color: #F433AB;
+    text-align: center;
+    padding: 27px 16px;
+    padding-right: 35px;
+    text-decoration: none;
+}
+
+.DateApp {
+    padding-right: 80px;
+    float: left;
+    font-size: 40px;
+    display: block;
+    color: #F433AB;
+    text-align: center;
+    padding: 14px 16px;
+    padding-left: 35px;
+    text-decoration: none;
+}
+
+
+/* ==============this is end of the navbar=============== */
+
+
+/* =============this is the start of the benefits box========= */
+
+.Box2 {
+    width: 100%;
+    height: 350px;
+    background-color: #F433AB;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Box2>div {
+    width: 350px;
+    height: 350px;
+    background-color: #F433AB;
+    text-align: center;
+    color: #403F4C;
+}
+
+
+/* ==============this is the end of the benefeits box========== */
+
+
+/* =============this is the start details box======== */
+
+.Box3 {
+    width: 100%;
+    height: 210px;
+    background-color: #403F4C;
+    text-align: center;
+    color: #F433AB;
+}
+
+.detailing {
+    padding-top: 35px;
+    font-size: 50px;
+}
+
+
+/* =============this is the end of the details box======== */
+
+
+/* ============this is the start of the pricing box========= */
+
+.Box4 {
+    width: 100%;
+    height: 400px;
+    background-color: #F433AB;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.pricingBox1 {
+    width: 300px;
+    height: 350px;
+    background-color: #F433AB;
+    margin-top: 25px;
+    color: #403F4C;
+    border: 4px solid #403F4C;
+}
+
+.pricingBox2 {
+    width: 300px;
+    height: 350px;
+    background-color: #F433AB;
+    margin-top: 25px;
+    color: #403F4C;
+    border: 4px solid #403F4C;
+}
+
+.pricingBox3 {
+    width: 300px;
+    height: 350px;
+    background-color: #F433AB;
+    margin-top: 25px;
+    color: #403F4C;
+    border: 4px solid #403F4C;
+}
+
+.btns {
+    width: 230px;
+    height: 50px;
+    font-size: 30px;
+    color: #403F4C;
+    border: 4px solid #403F4C;
+    background-color: #F433AB;
+    border-radius: 8px;
+}
+
+
+/* ==========this is the end of the pricing box========= */
+
+
+/* ============this is the start of the conclusion======= */
+
+.Box5 {
+    width: 100%;
+    height: 450px;
+    background-color: #403F4C;
+    text-align: center;
+}
+
+.finalBtn {
+    margin-top: 50px;
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    color: #F433AB;
+    background-color: #403F4C;
+    border: 3px solid #F433AB;
+    border-radius: 8px;
+}
+
+
+/* ==========this is the end of the conclusion====== */
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot);
+    /* For IE6-8 */
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'), url(https://example.com/MaterialIcons-Regular.woff) format('woff'), url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+#Icon1 {
+    font-size: 300px;
+    color: #F433AB;
+    padding-left: 130px;
+    padding-bottom: 45px;
+}
+
+#Icon2 {
+    font-size: 70px;
+    color: #403F4C;
+    padding-top: 69px;
+}
+
+#Icon3 {
+    font-size: 70px;
+    color: #403F4C;
+    padding-top: 69px;
+}
+
+#Icon4 {
+    font-size: 70px;
+    color: #403F4C;
+    padding-top: 69px;
+}
